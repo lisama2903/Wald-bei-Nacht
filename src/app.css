@@ -1,0 +1,79 @@
+@import "https://unpkg.com/normalize.css";
+@import "@picocss/pico/css/pico.blue.min.css";
+@import "@picocss/pico/css/pico.colors.min.css";
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/easings.min.css";
+@import "https://unpkg.com/open-props/animations.min.css";
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 16px;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Source: https://picocss.com/docs/css-variables#all-css-variables */
+	--pico-border-radius: 0.5rem;
+	--pico-typography-spacing-vertical: 1.5rem;
+	--pico-background-color: #fff !important;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	font-family: "Andika", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Bubblegum Sans", system-ui, sans-serif;
+	font-weight: 700;
+}
+
+.container {
+	width: 100%;
+	max-width: 1920px; /* Maximale Breite für größere Bildschirme */
+}
+
+.debug {
+	outline: 1px solid red;
+}
+
+@media (max-width: 768px) {
+	:root {
+		font-size: 14px;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 1.2em;
+	}
+
+	.container {
+		padding: 0 1rem;
+	}
+}

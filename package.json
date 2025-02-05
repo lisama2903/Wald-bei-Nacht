@@ -1,0 +1,29 @@
+{
+	"name": "lisa",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"svelte": "^5.2.7",
+		"svelte-confetti": "^2.3.1",
+		"vite": "^6.0.1"
+	},
+	"dependencies": {
+		"@fontsource/andika": "^5.1.1",
+		"@fontsource/bubblegum-sans": "^5.1.1",
+		"@picocss/pico": "^2.0.6",
+		"lucide-svelte": "^0.468.0",
+		"marked": "^14.1.3",
+		"ollama": "^0.5.11",
+		"open-props": "^1.7.8",
+		"openai": "^4.77.0",
+		"qs": "^6.13.1",
+		"svelte-spa-router": "^4.0.1"
+	}
+}
